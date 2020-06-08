@@ -1,0 +1,6 @@
+{
+  "name": "IrisCMS",
+  "port": "9000",
+  "static_path": "/manage/static",
+  "mode":"dev"
+}
