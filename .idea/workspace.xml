@@ -2,12 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57e004ab-5c84-4d22-aa8d-8d94255c84a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/respCode.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/admin_controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/authentication.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/order_controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/shop_controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/statis_controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/user_controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/address.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/admin_permission.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/city.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/order_status.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/permission.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/shop.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/user_order.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/OrderService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/admin_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/shop_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/statis_service.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/config/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/datasource/engine.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/model/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/service/user_service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/css/app.85873a69abe58e3fc37a13d571ef59e2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/fonts/element-icons.b02bdc1.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/img/default.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/0.6e924665f4f8679a8f0b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/1.133c2abd617c0387c552.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/10.68f21755d0ea680f65ff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/11.5a2f794df645be679134.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/12.108856a6a64b69d452ea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/13.40daecbf823a9a47c14b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/14.60c21ff24db6b503864b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/15.9a9d51410c3a3ec3ca04.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/16.7b80c57163637f4aa1ae.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/2.7d94de78ae43aa446f32.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/3.c99ba6cbcbc4385a9e5f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/4.85fdaf9055848767929a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/5.54656f4e9aea5944fcb7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/6.7550f07e2185ab8499b6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/7.3b3427db087de157e23a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/8.3aaa7ac54c23320df1da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/9.d5c067214793a371da56.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/app.254fae21a2a643114cf1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/app.4f474f1374a0f73cfdf0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/manifest.588125431c75900dcd3d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/manifest.6e0a93f9303a9ac73e9e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/reload.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/static/js/vendor.ff7ed87899e1752719de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IrisCMS/utils/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasource/engine.go" beforeDir="false" afterPath="$PROJECT_DIR$/datasource/engine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/user_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/user_service.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +94,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ask.go.tool.to.install.GoImportsTaskConsumer" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CmsProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/controller" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/controller" />
+      <recent name="$PROJECT_DIR$/model" />
+      <recent name="$PROJECT_DIR$/router" />
+      <recent name="$PROJECT_DIR$/service" />
       <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
